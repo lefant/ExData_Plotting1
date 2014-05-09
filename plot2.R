@@ -14,3 +14,4 @@ plot(d$Global_active_power,
      xaxt="n",
      ylab="Global Active Power (kilowatts)")
 axis(1, at=c(1,1440,2880), labels=c("Thu", "Fri", "Sat"))
+dev.off()
